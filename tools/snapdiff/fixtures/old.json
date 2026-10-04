@@ -1,0 +1,19 @@
+{
+  "domain": "example.com",
+  "observations": [
+    {"source": "CRT", "hostname": "www.example.com", "ipv4": "203.0.113.10", "observed_at": "2026-03-01T08:00:00Z"},
+    {"source": "CRT", "hostname": "api.example.com", "ipv4": "203.0.113.11", "observed_at": "2026-03-01T08:05:00Z"},
+    {"source": "CRT", "hostname": "blog.example.com", "ipv4": "203.0.113.13", "observed_at": "2026-03-01T08:07:00Z"},
+    {"source": "CRT", "hostname": "Legacy.Example.com", "ipv4": "203.0.113.16", "observed_at": "2026-03-01T08:09:00Z"},
+    {"source": "CRT", "hostname": "status.example.com", "ipv4": "203.0.113.17", "observed_at": "2026-03-01T08:10:00Z"},
+    {"source": "Shodan", "hostname": "www.example.com", "ipv4": "203.0.113.10", "observed_at": "2026-03-02T09:30:00Z"},
+    {"source": "Shodan", "hostname": "mail.example.com", "ipv4": "203.0.113.12", "observed_at": "2026-03-02T09:31:00Z"},
+    {"source": "Shodan", "hostname": "status.example.com", "ipv4": "203.0.113.17", "observed_at": "2026-03-02T09:32:00Z"},
+    {"source": "SecurityTrails", "hostname": "api.example.com", "ipv4": "203.0.113.11", "observed_at": "2026-03-03T10:00:00Z"},
+    {"source": "SecurityTrails", "hostname": "shop.example.com", "ipv4": "203.0.113.14", "observed_at": "2026-03-03T10:01:00Z"},
+    {"source": "SecurityTrails", "hostname": "dev.example.com", "ipv4": "203.0.113.18", "observed_at": "2026-03-03T10:02:00Z"},
+    {"source": "VirusTotal", "hostname": "blog.example.com", "ipv4": "203.0.113.13", "observed_at": "2026-03-05T11:00:00Z"},
+    {"source": "VirusTotal", "hostname": "status.example.com", "ipv4": "203.0.113.17", "observed_at": "2026-03-05T11:01:00Z"},
+    {"source": "Censys", "hostname": "cdn.example.com", "ipv4": "203.0.113.15", "observed_at": "2026-03-04T12:00:00Z"}
+  ]
+}
